@@ -1,0 +1,1254 @@
+2025-08-03 23:14:57,697 [PID 66699] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:14:57,698 [PID 66699] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:14:57,699 [PID 66699] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:14:57,701 [PID 66699] INFO No typeshed specified, looking for it...
+2025-08-03 23:14:57,702 [PID 66699] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:14:57,703 [PID 66699] INFO Writing arguments into /tmp/pyre_arguments_8m40w639.json...
+2025-08-03 23:14:57,704 [PID 66699] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:14:57,755 [PID 66699] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:14:57,756 [PID 66699] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.007s
+2025-08-03 23:14:57,756 [PID 66699] INFO  Building module tracker...
+2025-08-03 23:14:57,922 [PID 66699] PERFORMANCE  Module tracker built: 0.164s
+2025-08-03 23:14:57,922 [PID 66699] PERFORMANCE  Full environment built: 0.165s
+2025-08-03 23:14:57,922 [PID 66699] INFO  Collecting all definitions...
+2025-08-03 23:14:57,922 [PID 66699] PERFORMANCE  Collected definitions (defines: 0): 0.000s
+2025-08-03 23:14:57,922 [PID 66699] INFO  Checking 0 functions...
+2025-08-03 23:14:57,923 [PID 66699] PERFORMANCE  Check_TypeCheck: 0.000s
+2025-08-03 23:14:57,923 [PID 66699] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:14:57,923 [PID 66699] INFO  Postprocessing 0 sources...
+2025-08-03 23:14:57,923 [PID 66699] PERFORMANCE  Check_Postprocessing: 0.000s
+2025-08-03 23:14:57,923 [PID 66699] PERFORMANCE  Check (request kind: FullCheck): 0.165s
+2025-08-03 23:14:57,954 [PID 66699] SUCCESS No type errors found
+2025-08-03 23:16:22,798 [PID 67468] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:16:22,798 [PID 67468] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:16:22,799 [PID 67468] WARNING '/home/bedo/Desktop/study/linux/src' does not match any paths.
+2025-08-03 23:16:22,799 [PID 67468] WARNING Pyre did not find an existent source directory.
+2025-08-03 23:16:22,799 [PID 67468] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:16:22,802 [PID 67468] INFO No typeshed specified, looking for it...
+2025-08-03 23:16:22,802 [PID 67468] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:16:22,804 [PID 67468] INFO Writing arguments into /tmp/pyre_arguments_yzsviy1b.json...
+2025-08-03 23:16:22,804 [PID 67468] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": []
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:16:22,856 [PID 67468] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:16:22,857 [PID 67468] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.009s
+2025-08-03 23:16:22,857 [PID 67468] INFO  Building module tracker...
+2025-08-03 23:16:23,020 [PID 67468] PERFORMANCE  Module tracker built: 0.154s
+2025-08-03 23:16:23,021 [PID 67468] PERFORMANCE  Full environment built: 0.155s
+2025-08-03 23:16:23,021 [PID 67468] INFO  Collecting all definitions...
+2025-08-03 23:16:23,021 [PID 67468] PERFORMANCE  Collected definitions (defines: 0): 0.000s
+2025-08-03 23:16:23,021 [PID 67468] INFO  Checking 0 functions...
+2025-08-03 23:16:23,021 [PID 67468] PERFORMANCE  Check_TypeCheck: 0.000s
+2025-08-03 23:16:23,021 [PID 67468] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:16:23,022 [PID 67468] INFO  Postprocessing 0 sources...
+2025-08-03 23:16:23,022 [PID 67468] PERFORMANCE  Check_Postprocessing: 0.000s
+2025-08-03 23:16:23,022 [PID 67468] PERFORMANCE  Check (request kind: FullCheck): 0.155s
+2025-08-03 23:16:23,043 [PID 67468] SUCCESS No type errors found
+2025-08-03 23:16:47,074 [PID 67726] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:16:47,075 [PID 67726] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:16:47,075 [PID 67726] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:16:47,078 [PID 67726] INFO No typeshed specified, looking for it...
+2025-08-03 23:16:47,079 [PID 67726] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:16:47,080 [PID 67726] INFO Writing arguments into /tmp/pyre_arguments_9mguqam8.json...
+2025-08-03 23:16:47,080 [PID 67726] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:16:47,132 [PID 67726] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:16:47,133 [PID 67726] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.007s
+2025-08-03 23:16:47,133 [PID 67726] INFO  Building module tracker...
+2025-08-03 23:16:47,285 [PID 67726] PERFORMANCE  Module tracker built: 0.153s
+2025-08-03 23:16:47,285 [PID 67726] PERFORMANCE  Full environment built: 0.153s
+2025-08-03 23:16:47,285 [PID 67726] INFO  Collecting all definitions...
+2025-08-03 23:16:47,397 [PID 67726] PERFORMANCE  Collected definitions (defines: 2): 0.102s
+2025-08-03 23:16:47,398 [PID 67726] INFO  Checking 2 functions...
+2025-08-03 23:16:47,865 [PID 67726] INFO  Processed 2 of 2 functions
+2025-08-03 23:16:47,865 [PID 67726] PERFORMANCE  Check_TypeCheck: 0.473s
+2025-08-03 23:16:47,865 [PID 67726] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:16:47,865 [PID 67726] INFO  Postprocessing 1 sources...
+2025-08-03 23:16:47,927 [PID 67726] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:16:47,927 [PID 67726] PERFORMANCE  Check_Postprocessing: 0.060s
+2025-08-03 23:16:47,927 [PID 67726] PERFORMANCE  Check (request kind: FullCheck): 0.791s
+2025-08-03 23:16:47,958 [PID 67726] ERROR Found 3 type errors!
+2025-08-03 23:25:09,082 [PID 71613] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:25:09,083 [PID 71613] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:25:09,084 [PID 71613] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:25:09,086 [PID 71613] INFO No typeshed specified, looking for it...
+2025-08-03 23:25:09,087 [PID 71613] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:25:09,088 [PID 71613] INFO Writing arguments into /tmp/pyre_arguments_eo1vgpys.json...
+2025-08-03 23:25:09,088 [PID 71613] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:25:09,140 [PID 71613] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:25:09,141 [PID 71613] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.007s
+2025-08-03 23:25:09,141 [PID 71613] INFO  Building module tracker...
+2025-08-03 23:25:09,305 [PID 71613] PERFORMANCE  Module tracker built: 0.156s
+2025-08-03 23:25:09,305 [PID 71613] PERFORMANCE  Full environment built: 0.159s
+2025-08-03 23:25:09,305 [PID 71613] INFO  Collecting all definitions...
+2025-08-03 23:25:09,407 [PID 71613] PERFORMANCE  Collected definitions (defines: 2): 0.102s
+2025-08-03 23:25:09,407 [PID 71613] INFO  Checking 2 functions...
+2025-08-03 23:25:09,874 [PID 71613] INFO  Processed 2 of 2 functions
+2025-08-03 23:25:09,875 [PID 71613] PERFORMANCE  Check_TypeCheck: 0.463s
+2025-08-03 23:25:09,875 [PID 71613] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:25:09,875 [PID 71613] INFO  Postprocessing 1 sources...
+2025-08-03 23:25:09,926 [PID 71613] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:25:09,926 [PID 71613] PERFORMANCE  Check_Postprocessing: 0.058s
+2025-08-03 23:25:09,927 [PID 71613] PERFORMANCE  Check (request kind: FullCheck): 0.784s
+2025-08-03 23:25:09,959 [PID 71613] ERROR Found 3 type errors!
+2025-08-03 23:26:04,620 [PID 72054] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:26:04,621 [PID 72054] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:26:04,621 [PID 72054] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:26:04,625 [PID 72054] INFO No typeshed specified, looking for it...
+2025-08-03 23:26:04,625 [PID 72054] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:26:04,627 [PID 72054] INFO Writing arguments into /tmp/pyre_arguments_iwbchnfs.json...
+2025-08-03 23:26:04,627 [PID 72054] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:26:04,670 [PID 72054] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:26:04,681 [PID 72054] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.009s
+2025-08-03 23:26:04,681 [PID 72054] INFO  Building module tracker...
+2025-08-03 23:26:04,835 [PID 72054] PERFORMANCE  Module tracker built: 0.155s
+2025-08-03 23:26:04,836 [PID 72054] PERFORMANCE  Full environment built: 0.155s
+2025-08-03 23:26:04,836 [PID 72054] INFO  Collecting all definitions...
+2025-08-03 23:26:04,937 [PID 72054] PERFORMANCE  Collected definitions (defines: 2): 0.102s
+2025-08-03 23:26:04,938 [PID 72054] INFO  Checking 2 functions...
+2025-08-03 23:26:05,405 [PID 72054] INFO  Processed 2 of 2 functions
+2025-08-03 23:26:05,405 [PID 72054] PERFORMANCE  Check_TypeCheck: 0.461s
+2025-08-03 23:26:05,405 [PID 72054] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:26:05,405 [PID 72054] INFO  Postprocessing 1 sources...
+2025-08-03 23:26:05,467 [PID 72054] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:26:05,467 [PID 72054] PERFORMANCE  Check_Postprocessing: 0.058s
+2025-08-03 23:26:05,467 [PID 72054] PERFORMANCE  Check (request kind: FullCheck): 0.778s
+2025-08-03 23:26:05,488 [PID 72054] ERROR Found 3 type errors!
+2025-08-03 23:26:55,834 [PID 72493] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:26:55,835 [PID 72493] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:26:55,835 [PID 72493] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:26:55,838 [PID 72493] INFO No typeshed specified, looking for it...
+2025-08-03 23:26:55,838 [PID 72493] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:26:55,839 [PID 72493] INFO Writing arguments into /tmp/pyre_arguments_93_7a5wv.json...
+2025-08-03 23:26:55,840 [PID 72493] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:26:55,883 [PID 72493] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:26:55,893 [PID 72493] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.007s
+2025-08-03 23:26:55,894 [PID 72493] INFO  Building module tracker...
+2025-08-03 23:26:56,047 [PID 72493] PERFORMANCE  Module tracker built: 0.152s
+2025-08-03 23:26:56,047 [PID 72493] PERFORMANCE  Full environment built: 0.153s
+2025-08-03 23:26:56,047 [PID 72493] INFO  Collecting all definitions...
+2025-08-03 23:26:56,150 [PID 72493] PERFORMANCE  Collected definitions (defines: 2): 0.102s
+2025-08-03 23:26:56,151 [PID 72493] INFO  Checking 2 functions...
+2025-08-03 23:26:56,638 [PID 72493] INFO  Processed 2 of 2 functions
+2025-08-03 23:26:56,638 [PID 72493] PERFORMANCE  Check_TypeCheck: 0.483s
+2025-08-03 23:26:56,639 [PID 72493] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:26:56,639 [PID 72493] INFO  Postprocessing 1 sources...
+2025-08-03 23:26:56,690 [PID 72493] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:26:56,690 [PID 72493] PERFORMANCE  Check_Postprocessing: 0.057s
+2025-08-03 23:26:56,690 [PID 72493] PERFORMANCE  Check (request kind: FullCheck): 0.797s
+2025-08-03 23:26:56,723 [PID 72493] SUCCESS No type errors found
+2025-08-03 23:27:19,404 [PID 72709] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:27:19,405 [PID 72709] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:27:19,405 [PID 72709] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:27:19,408 [PID 72709] INFO No typeshed specified, looking for it...
+2025-08-03 23:27:19,408 [PID 72709] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:27:19,410 [PID 72709] INFO Writing arguments into /tmp/pyre_arguments_qvr_69bi.json...
+2025-08-03 23:27:19,410 [PID 72709] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:27:19,452 [PID 72709] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:27:19,463 [PID 72709] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.009s
+2025-08-03 23:27:19,464 [PID 72709] INFO  Building module tracker...
+2025-08-03 23:27:19,627 [PID 72709] PERFORMANCE  Module tracker built: 0.159s
+2025-08-03 23:27:19,627 [PID 72709] PERFORMANCE  Full environment built: 0.159s
+2025-08-03 23:27:19,627 [PID 72709] INFO  Collecting all definitions...
+2025-08-03 23:27:19,730 [PID 72709] PERFORMANCE  Collected definitions (defines: 2): 0.106s
+2025-08-03 23:27:19,731 [PID 72709] INFO  Checking 2 functions...
+2025-08-03 23:27:20,219 [PID 72709] INFO  Processed 2 of 2 functions
+2025-08-03 23:27:20,219 [PID 72709] PERFORMANCE  Check_TypeCheck: 0.488s
+2025-08-03 23:27:20,219 [PID 72709] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:27:20,220 [PID 72709] INFO  Postprocessing 1 sources...
+2025-08-03 23:27:20,281 [PID 72709] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:27:20,281 [PID 72709] PERFORMANCE  Check_Postprocessing: 0.059s
+2025-08-03 23:27:20,282 [PID 72709] PERFORMANCE  Check (request kind: FullCheck): 0.814s
+2025-08-03 23:27:20,315 [PID 72709] ERROR Found 1 type error!
+2025-08-03 23:30:22,415 [PID 75606] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:30:22,415 [PID 75606] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:30:22,416 [PID 75606] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:30:22,419 [PID 75606] INFO No typeshed specified, looking for it...
+2025-08-03 23:30:22,419 [PID 75606] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:30:22,420 [PID 75606] INFO Writing arguments into /tmp/pyre_arguments_p3wrybdc.json...
+2025-08-03 23:30:22,421 [PID 75606] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2025-08-03 23:30:22,473 [PID 75606] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.003s
+2025-08-03 23:30:22,484 [PID 75606] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.008s
+2025-08-03 23:30:22,484 [PID 75606] INFO  Building module tracker...
+2025-08-03 23:30:22,638 [PID 75606] PERFORMANCE  Module tracker built: 0.162s
+2025-08-03 23:30:22,638 [PID 75606] PERFORMANCE  Full environment built: 0.162s
+2025-08-03 23:30:22,638 [PID 75606] INFO  Collecting all definitions...
+2025-08-03 23:30:22,741 [PID 75606] PERFORMANCE  Collected definitions (defines: 2): 0.103s
+2025-08-03 23:30:22,742 [PID 75606] INFO  Checking 2 functions...
+2025-08-03 23:30:23,239 [PID 75606] INFO  Processed 2 of 2 functions
+2025-08-03 23:30:23,239 [PID 75606] PERFORMANCE  Check_TypeCheck: 0.491s
+2025-08-03 23:30:23,239 [PID 75606] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:30:23,239 [PID 75606] INFO  Postprocessing 1 sources...
+2025-08-03 23:30:23,300 [PID 75606] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:30:23,301 [PID 75606] PERFORMANCE  Check_Postprocessing: 0.060s
+2025-08-03 23:30:23,301 [PID 75606] PERFORMANCE  Check (request kind: FullCheck): 0.818s
+2025-08-03 23:30:23,322 [PID 75606] ERROR Found 1 type error!
+2025-08-03 23:43:58,607 [PID 83333] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:43:58,607 [PID 83333] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:43:58,607 [PID 83333] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:43:58,609 [PID 83333] INFO No typeshed specified, looking for it...
+2025-08-03 23:43:58,609 [PID 83333] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:43:58,609 [PID 83333] INFO Writing arguments into /tmp/pyre_arguments_758ivpd0.json...
+2025-08-03 23:43:58,609 [PID 83333] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:43:58,661 [PID 83333] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:43:58,671 [PID 83333] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.003s
+2025-08-03 23:43:58,671 [PID 83333] INFO  Building module tracker...
+2025-08-03 23:43:58,742 [PID 83333] PERFORMANCE  Module tracker built: 0.073s
+2025-08-03 23:43:58,742 [PID 83333] PERFORMANCE  Full environment built: 0.073s
+2025-08-03 23:43:58,742 [PID 83333] INFO  Collecting all definitions...
+2025-08-03 23:43:58,803 [PID 83333] PERFORMANCE  Collected definitions (defines: 2): 0.056s
+2025-08-03 23:43:58,803 [PID 83333] INFO  Checking 2 functions...
+2025-08-03 23:43:59,035 [PID 83333] INFO  Processed 2 of 2 functions
+2025-08-03 23:43:59,036 [PID 83333] PERFORMANCE  Check_TypeCheck: 0.237s
+2025-08-03 23:43:59,036 [PID 83333] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:43:59,036 [PID 83333] INFO  Postprocessing 1 sources...
+2025-08-03 23:43:59,066 [PID 83333] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:43:59,066 [PID 83333] PERFORMANCE  Check_Postprocessing: 0.029s
+2025-08-03 23:43:59,067 [PID 83333] PERFORMANCE  Check (request kind: FullCheck): 0.397s
+2025-08-03 23:43:59,077 [PID 83333] ERROR Found 1 type error!
+2025-08-03 23:44:08,303 [PID 83457] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:44:08,304 [PID 83457] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:44:08,304 [PID 83457] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:44:08,305 [PID 83457] INFO No typeshed specified, looking for it...
+2025-08-03 23:44:08,305 [PID 83457] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:44:08,306 [PID 83457] INFO Writing arguments into /tmp/pyre_arguments_ey4rd8eh.json...
+2025-08-03 23:44:08,306 [PID 83457] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:44:08,337 [PID 83457] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:44:08,338 [PID 83457] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.005s
+2025-08-03 23:44:08,338 [PID 83457] INFO  Building module tracker...
+2025-08-03 23:44:08,419 [PID 83457] PERFORMANCE  Module tracker built: 0.077s
+2025-08-03 23:44:08,419 [PID 83457] PERFORMANCE  Full environment built: 0.077s
+2025-08-03 23:44:08,419 [PID 83457] INFO  Collecting all definitions...
+2025-08-03 23:44:08,470 [PID 83457] PERFORMANCE  Collected definitions (defines: 2): 0.053s
+2025-08-03 23:44:08,470 [PID 83457] INFO  Checking 2 functions...
+2025-08-03 23:44:08,702 [PID 83457] INFO  Processed 2 of 2 functions
+2025-08-03 23:44:08,703 [PID 83457] PERFORMANCE  Check_TypeCheck: 0.232s
+2025-08-03 23:44:08,703 [PID 83457] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:44:08,703 [PID 83457] INFO  Postprocessing 1 sources...
+2025-08-03 23:44:08,733 [PID 83457] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:44:08,733 [PID 83457] PERFORMANCE  Check_Postprocessing: 0.030s
+2025-08-03 23:44:08,734 [PID 83457] PERFORMANCE  Check (request kind: FullCheck): 0.394s
+2025-08-03 23:44:08,744 [PID 83457] ERROR Found 1 type error!
+2025-08-03 23:44:30,719 [PID 83700] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:44:30,720 [PID 83700] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:44:30,720 [PID 83700] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:44:30,721 [PID 83700] INFO No typeshed specified, looking for it...
+2025-08-03 23:44:30,721 [PID 83700] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:44:30,722 [PID 83700] INFO Writing arguments into /tmp/pyre_arguments_a795iyp0.json...
+2025-08-03 23:44:30,722 [PID 83700] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:44:30,753 [PID 83700] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:44:30,753 [PID 83700] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.003s
+2025-08-03 23:44:30,753 [PID 83700] INFO  Building module tracker...
+2025-08-03 23:44:30,824 [PID 83700] PERFORMANCE  Module tracker built: 0.074s
+2025-08-03 23:44:30,824 [PID 83700] PERFORMANCE  Full environment built: 0.074s
+2025-08-03 23:44:30,824 [PID 83700] INFO  Collecting all definitions...
+2025-08-03 23:44:30,885 [PID 83700] PERFORMANCE  Collected definitions (defines: 2): 0.052s
+2025-08-03 23:44:30,885 [PID 83700] INFO  Checking 2 functions...
+2025-08-03 23:44:31,118 [PID 83700] INFO  Processed 2 of 2 functions
+2025-08-03 23:44:31,118 [PID 83700] PERFORMANCE  Check_TypeCheck: 0.232s
+2025-08-03 23:44:31,118 [PID 83700] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:44:31,118 [PID 83700] INFO  Postprocessing 1 sources...
+2025-08-03 23:44:31,139 [PID 83700] INFO  Postprocessed 1 of 1 sources
+2025-08-03 23:44:31,139 [PID 83700] PERFORMANCE  Check_Postprocessing: 0.029s
+2025-08-03 23:44:31,139 [PID 83700] PERFORMANCE  Check (request kind: FullCheck): 0.389s
+2025-08-03 23:44:31,160 [PID 83700] SUCCESS No type errors found
+2025-08-03 23:46:50,693 [PID 84782] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:46:50,693 [PID 84782] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:46:50,693 [PID 84782] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:46:50,695 [PID 84782] INFO No typeshed specified, looking for it...
+2025-08-03 23:46:50,695 [PID 84782] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:46:50,695 [PID 84782] INFO Writing arguments into /tmp/pyre_arguments_36u2v2h0.json...
+2025-08-03 23:46:50,696 [PID 84782] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:46:50,727 [PID 84782] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:46:50,727 [PID 84782] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.004s
+2025-08-03 23:46:50,727 [PID 84782] INFO  Building module tracker...
+2025-08-03 23:46:50,808 [PID 84782] PERFORMANCE  Module tracker built: 0.077s
+2025-08-03 23:46:50,808 [PID 84782] PERFORMANCE  Full environment built: 0.078s
+2025-08-03 23:46:50,808 [PID 84782] INFO  Collecting all definitions...
+2025-08-03 23:46:50,858 [PID 84782] PERFORMANCE  Collected definitions (defines: 4): 0.053s
+2025-08-03 23:46:50,859 [PID 84782] INFO  Checking 4 functions...
+2025-08-03 23:46:51,091 [PID 84782] INFO  Processed 4 of 4 functions
+2025-08-03 23:46:51,092 [PID 84782] PERFORMANCE  Check_TypeCheck: 0.233s
+2025-08-03 23:46:51,092 [PID 84782] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:46:51,092 [PID 84782] INFO  Postprocessing 2 sources...
+2025-08-03 23:46:51,122 [PID 84782] INFO  Postprocessed 2 of 2 sources
+2025-08-03 23:46:51,122 [PID 84782] PERFORMANCE  Check_Postprocessing: 0.031s
+2025-08-03 23:46:51,123 [PID 84782] PERFORMANCE  Check (request kind: FullCheck): 0.396s
+2025-08-03 23:46:51,143 [PID 84782] ERROR Found 1 type error!
+2025-08-03 23:47:06,355 [PID 84999] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:47:06,356 [PID 84999] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:47:06,356 [PID 84999] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:47:06,357 [PID 84999] INFO No typeshed specified, looking for it...
+2025-08-03 23:47:06,357 [PID 84999] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:47:06,358 [PID 84999] INFO Writing arguments into /tmp/pyre_arguments_dkmhtg7r.json...
+2025-08-03 23:47:06,358 [PID 84999] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:47:06,389 [PID 84999] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:47:06,389 [PID 84999] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.003s
+2025-08-03 23:47:06,389 [PID 84999] INFO  Building module tracker...
+2025-08-03 23:47:06,470 [PID 84999] PERFORMANCE  Module tracker built: 0.083s
+2025-08-03 23:47:06,471 [PID 84999] PERFORMANCE  Full environment built: 0.083s
+2025-08-03 23:47:06,471 [PID 84999] INFO  Collecting all definitions...
+2025-08-03 23:47:06,532 [PID 84999] PERFORMANCE  Collected definitions (defines: 4): 0.055s
+2025-08-03 23:47:06,532 [PID 84999] INFO  Checking 4 functions...
+2025-08-03 23:47:06,764 [PID 84999] INFO  Processed 4 of 4 functions
+2025-08-03 23:47:06,765 [PID 84999] PERFORMANCE  Check_TypeCheck: 0.232s
+2025-08-03 23:47:06,765 [PID 84999] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:47:06,765 [PID 84999] INFO  Postprocessing 2 sources...
+2025-08-03 23:47:06,795 [PID 84999] INFO  Postprocessed 2 of 2 sources
+2025-08-03 23:47:06,795 [PID 84999] PERFORMANCE  Check_Postprocessing: 0.029s
+2025-08-03 23:47:06,795 [PID 84999] PERFORMANCE  Check (request kind: FullCheck): 0.401s
+2025-08-03 23:47:06,806 [PID 84999] SUCCESS No type errors found
+2025-08-03 23:47:13,231 [PID 85106] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:47:13,231 [PID 85106] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:47:13,231 [PID 85106] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:47:13,233 [PID 85106] INFO No typeshed specified, looking for it...
+2025-08-03 23:47:13,233 [PID 85106] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:47:13,233 [PID 85106] INFO Writing arguments into /tmp/pyre_arguments_ggkw46ad.json...
+2025-08-03 23:47:13,233 [PID 85106] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:47:13,264 [PID 85106] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:47:13,264 [PID 85106] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.003s
+2025-08-03 23:47:13,265 [PID 85106] INFO  Building module tracker...
+2025-08-03 23:47:13,346 [PID 85106] PERFORMANCE  Module tracker built: 0.077s
+2025-08-03 23:47:13,346 [PID 85106] PERFORMANCE  Full environment built: 0.077s
+2025-08-03 23:47:13,346 [PID 85106] INFO  Collecting all definitions...
+2025-08-03 23:47:13,396 [PID 85106] PERFORMANCE  Collected definitions (defines: 4): 0.053s
+2025-08-03 23:47:13,397 [PID 85106] INFO  Checking 4 functions...
+2025-08-03 23:47:13,629 [PID 85106] INFO  Processed 4 of 4 functions
+2025-08-03 23:47:13,629 [PID 85106] PERFORMANCE  Check_TypeCheck: 0.231s
+2025-08-03 23:47:13,629 [PID 85106] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:47:13,630 [PID 85106] INFO  Postprocessing 2 sources...
+2025-08-03 23:47:13,660 [PID 85106] INFO  Postprocessed 2 of 2 sources
+2025-08-03 23:47:13,660 [PID 85106] PERFORMANCE  Check_Postprocessing: 0.030s
+2025-08-03 23:47:13,660 [PID 85106] PERFORMANCE  Check (request kind: FullCheck): 0.393s
+2025-08-03 23:47:13,671 [PID 85106] ERROR Found 1 type error!
+2025-08-03 23:47:23,437 [PID 85234] INFO No binary specified, looking for `pyre.bin` in PATH
+2025-08-03 23:47:23,438 [PID 85234] INFO Pyre binary is located at `/home/bedo/pyre-env/bin/pyre.bin`
+2025-08-03 23:47:23,438 [PID 85234] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 5.
+2025-08-03 23:47:23,439 [PID 85234] INFO No typeshed specified, looking for it...
+2025-08-03 23:47:23,439 [PID 85234] INFO Found: `/home/bedo/pyre-env/lib/pyre_check/typeshed`
+2025-08-03 23:47:23,440 [PID 85234] INFO Writing arguments into /tmp/pyre_arguments_y8ugv0yc.json...
+2025-08-03 23:47:23,440 [PID 85234] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/bedo/Desktop/study/linux"
+    ]
+  },
+  "search_paths": [
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$libcst",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$typeguard",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$packaging",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$pip",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$click",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$marshmallow",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$tomli_w",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$testslide",
+    "/home/bedo/pyre-env/lib/python3.12/site-packages$dataclasses_json",
+    "/home/bedo/.local/lib/python3.12/site-packages$flask_jwt_extended",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stdlib",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ExifRead",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/regex",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/requests",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/retry",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/bedo/pyre-env/lib/pyre_check/typeshed/stubs/ujson"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/home/bedo/Desktop/study/linux"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/bedo/Desktop/study/linux/.pyre",
+  "global_root": "/home/bedo/Desktop/study/linux",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 12,
+    "micro": 3
+  },
+  "system_platform": "linux",
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 5,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": true
+}
+2025-08-03 23:47:23,471 [PID 85234] PERFORMANCE  Initialized shared memory (heap size: 8589934592, dep table pow: 1, hash table pow: 26): 0.001s
+2025-08-03 23:47:23,471 [PID 85234] PERFORMANCE  Initialized multiprocessing workers (workers: 5): 0.003s
+2025-08-03 23:47:23,471 [PID 85234] INFO  Building module tracker...
+2025-08-03 23:47:23,542 [PID 85234] PERFORMANCE  Module tracker built: 0.074s
+2025-08-03 23:47:23,542 [PID 85234] PERFORMANCE  Full environment built: 0.074s
+2025-08-03 23:47:23,543 [PID 85234] INFO  Collecting all definitions...
+2025-08-03 23:47:23,603 [PID 85234] PERFORMANCE  Collected definitions (defines: 4): 0.052s
+2025-08-03 23:47:23,604 [PID 85234] INFO  Checking 4 functions...
+2025-08-03 23:47:23,826 [PID 85234] INFO  Processed 4 of 4 functions
+2025-08-03 23:47:23,826 [PID 85234] PERFORMANCE  Check_TypeCheck: 0.231s
+2025-08-03 23:47:23,826 [PID 85234] MEMORY  Shared memory size post-typecheck (size: 0)
+2025-08-03 23:47:23,826 [PID 85234] INFO  Postprocessing 2 sources...
+2025-08-03 23:47:23,857 [PID 85234] INFO  Postprocessed 2 of 2 sources
+2025-08-03 23:47:23,857 [PID 85234] PERFORMANCE  Check_Postprocessing: 0.030s
+2025-08-03 23:47:23,857 [PID 85234] PERFORMANCE  Check (request kind: FullCheck): 0.389s
+2025-08-03 23:47:23,878 [PID 85234] ERROR Found 1 type error!
