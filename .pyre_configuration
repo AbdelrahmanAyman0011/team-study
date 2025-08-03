@@ -1,7 +1,10 @@
 {
   "site_package_search_strategy": "pep561",
   "source_directories": [
-    "./"
+    "."
   ],
-  "strict": true
+  "strict": true,
+  "ignore_all_errors": [
+    "venv"
+  ]
 }

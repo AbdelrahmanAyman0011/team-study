@@ -2,13 +2,19 @@
     "cSpell.words": [
         "Abdelrahman"
     ],
-    "python.analysis.typeCheckingMode": "strict",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.mypyEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": false,
     "python.linting.pyreEnabled": true,
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit"
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "python.analysis.exclude": [
+        "venv"
+    ],
+    "python.analysis.extraPaths": [
+        "./"
+    ]
 }

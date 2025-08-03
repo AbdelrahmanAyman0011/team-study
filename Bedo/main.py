@@ -1,9 +1,15 @@
 #pyre-strict
 
-def dev(a: int, b: int):
-    return a / b
+print("hello")
+nums: list[int] = [1, 2, 3, 4, 5]
 
-print("welcome to the division function")
+def sum(a: int, b: int) -> int:  
+    return a + b
 
-nums: list[int] = [10, 20, 30, 40, 50]
-print(dev(100, 5))
+for i in nums:
+    if i == 3:
+        print("Welcome Abdelrahman")
+    else:
+        print("not expected")
+
+print(sum(2, 3))
